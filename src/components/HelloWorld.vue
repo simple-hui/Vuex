@@ -106,6 +106,13 @@ export default {
       ck,
       tm
     })
+    // 数据就可以拿到并处理了
+    console.log(this.demo)
+  },
+  computed: {
+    demo () {
+      return this.$store.getters.changePeople
+    }
   }
 }
 </script>

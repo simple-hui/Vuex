@@ -2,6 +2,7 @@
 export default {
   title: '首页',
   START_PARMA: {},
+  context: {},
   people: [
     {
       name: 'ziksang1',
@@ -31,5 +32,6 @@ export default {
       name: 'ziksang7',
       age: 80
     }
-  ]
+  ],
+  demoObj: {}
 }
